@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+
+    <title>V3 Assignment</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <header class="head">
+        <h1>Learn to code by watching others</h1>
+
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </header>
+
+      <main>
+        <div class="main-text">
+          <strong>Try it free 7 days</strong> then $20/mo. thereafter
+        </div>
+
+        <div class="signup-form">
+          <div class="form-box">
+            <img
+              src="icon-error.svg"
+              class="error-icon hide icon-first"
+              alt="error-icon"
+            />
+            <input type="text" placeholder="Jonathan|" class="first" />
+            <p class="error-text hide" id="error-first">
+              First Name cannot be empty
+            </p>
+          </div>
+
+          <div class="form-box">
+            <img
+              src="icon-error.svg"
+              class="error-icon hide icon-last"
+              alt="error-icon"
+            />
+            <input type="text" placeholder="Last Name" class="last" />
+            <p class="error-text hide" id="error-last">
+              Last Name cannot be empty
+            </p>
+          </div>
+
+          <div class="form-box">
+            <img
+              src="icon-error.svg"
+              class="error-icon hide icon-email"
+              alt="error-icon"
+            />
+            <input type="email" placeholder="Email Address" class="email" />
+            <p class="error-text hide" id="error-email">
+              Looks like this is not an email
+            </p>
+          </div>
+
+          <div class="form-box">
+            <img
+              src="icon-error.svg"
+              class="error-icon hide icon-password"
+              alt="error-icon"
+            />
+            <input type="password" placeholder="Password" class="password" />
+            <p class="error-text hide" id="error-password">
+              Password cannot be empty
+            </p>
+          </div>
+
+          <input type="submit" value="Claim your free trial" id="submit" />
+          <p class="terms">
+            By clicking the button, you are agreeing to our
+            <a href="#">Terms and Services</a>
+          </p>
+        </div>
+      </main>
+    </div>
+
+    <!-- JS Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
